@@ -35,7 +35,7 @@ def circuit(state):
     return qml.state()
     
     
-state = np.array([1, 0])
+state = np.array([1, 1])
 output = circuit(state)
 print(output)
 # If The output contains a negative sign, they loose the game, negate points or come up with a punishment
